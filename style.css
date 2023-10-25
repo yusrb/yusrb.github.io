@@ -1,0 +1,566 @@
+* {
+    font-family: 'Times New Roman';
+    color: white;
+    
+}
+
+/* keyframes start */
+
+@keyframes nama {
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+    100% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+@keyframes logo{
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+    100% {
+        width: 40px;
+        opacity: 0.8;
+    }
+}
+
+/* @keyframes end*/
+
+/* beranda start */
+.beranda , .badan {
+    background-color: #161616;
+}
+
+.atas {
+    color: crimson;
+}
+
+.nav-item a:hover  {
+    color: crimson !important;
+}
+
+.navbar-brand {
+    cursor: default ;
+}
+
+.brian {
+    position: relative;
+    margin-left: 130px;
+    margin-top: 0px;
+    bottom: 305px;
+}
+
+#nama {
+    cursor: default ;
+    margin-bottom: 5px;
+}
+
+h1 , .desc-q {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: nama 2s steps(40) 1s forwards;
+}
+
+.front:hover {
+    text-shadow: 0px 0 10px crimson;
+    font-size: 43px;
+}
+
+.back:hover {
+    text-shadow: 0px 0 10px gray;
+    font-size:43px
+}
+
+#gambar_saya1 {
+    position: relative;
+    bottom: 30px;
+    border: gray solid;
+    border-radius: 15px;
+    bottom: 20px;
+    left: 5px;
+    height: 400px;
+    width: 396px;
+    margin-left: 61%;
+}
+
+.container {
+    background-color: #161616;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.desc-saya {
+    text-align: center;
+}
+
+.li-logo li {
+    text-align: center;
+    position: relative;
+    top: 278px;
+    left: 180px;
+    margin: 1px;
+    list-style-type: none;
+    display: inline; 
+}
+
+.bx {
+    display: inline-flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding-top: 8px;
+    align-items: center;
+    box-shadow: 0px 0 10px gray;
+    font-size: 20px;
+    border: 2px white solid ;
+    border-radius: 50%;
+}
+
+.bx {
+        white-space: nowrap;
+        overflow: hidden;
+        display: inline-block;
+        animation: logo 0.9s steps(40) 1s forwards;
+}
+
+.bx:hover {
+    background-color: darkgray;
+    box-shadow: none;
+    height: 41px;
+    width: 42px;
+}
+
+#gambar_saya2 {
+    position: relative;
+    float: left;
+    left: 120px;
+    bottom: 45px;
+    height: 290px;
+    width: 280px;
+}
+
+.header-about-me {
+    font-weight: bold;
+    margin-top: 130px;
+    text-align: center;
+    margin-left: 290px;
+    text-shadow: 0px 0 10px gray;
+}
+
+.header-about-me:hover {
+    cursor: default ;
+    font-size: 30px;
+}
+
+.desc1-about-me {
+    width: 550px;
+    font-size: 13px;
+    margin-top: 45px;
+    margin-left: 550px;
+}
+
+
+.skill {
+    margin-top: 0px;
+    text-align: center;
+    margin-top: 300px;
+    height: 40%;
+    width: 40%;
+    padding: 25px;
+    margin-left: 32%;
+    border: 0.8px solid;
+    border-radius: 50px;
+    border-style: double;
+}
+
+.header-skill {
+    padding-top: 10px;
+    font-weight: bold;
+    cursor: default ;
+    text-align: center;
+    margin-top: px;
+    text-shadow: 0px 0 10px gray;
+}
+
+.header-skill:hover {
+    font-size: 32px;
+    text-shadow: 0px 0 30px gray;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+
+.box:hover {
+    transform: scale(1.15);
+}
+
+.html_css ,.python, .mysql {
+    height: 75px;
+    width: 75px;
+    margin: 25px;
+}
+
+.project {
+    margin-top: 15%;
+    text-align: center;
+}
+
+.header-project {
+    text-align: center;
+}
+
+.header-project:hover {
+    text-shadow: 0px 0 10px darkgray;
+    font-size: 32px;
+    cursor: default;
+}
+
+.my-project,#isi-project,.project-p {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    display: inline-flex;
+    margin: 10px;
+}
+
+.project-p:hover {
+    text-shadow: 0px 0 10px crimson;
+    font-size: 22px;
+}
+
+.contact {
+    cursor: default ;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+#header_contact {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#header_contact:hover {
+    text-shadow: 1px 0 10px grey;
+}
+
+.logo-footer li {
+    text-align: center;
+    position: relative;
+    top: 15px;
+    display: inline;
+    list-style-type: none;
+}
+
+.bawah {
+    color: white;
+    text-align: center;
+    height: 100px;
+    background-color: #222021;
+    border-radius: 15px;
+    cursor: default ;
+}
+
+.end {
+    margin-left: 28px;
+}
+
+/* beranda end */
+
+.konten{
+    height: auto;
+    width: 800px;
+    margin-left: 40px;
+}
+
+.header {
+    cursor: default;
+    font-size: 10px;
+    margin-left: 70px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.penulis {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+
+.nama {
+    color: gray;
+}
+
+.tanggal {
+    color: gray;
+}
+
+
+/* Halaman Bahasa Indonesia start */
+
+.sidebar {
+    position: relative;
+    background-color: #161616;
+    width: 28%;
+    float: right;
+    border: 1px solid;
+    border-style: dotted;
+    margin-right: 30px;
+}
+
+.header-sidebar {
+    background-color: #696969;
+    border-bottom: 2.1px dotted gray;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+    height: 30px;
+    padding: 7px;
+    color: white;
+    cursor: default ;
+}
+
+.isi-sidebar ul li {
+    list-style: none;
+}
+
+.isi-sidebar li a {
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    margin-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+
+.isi-sidebar li a:hover {
+    color: crimson;
+}
+
+.poster {
+    height: 350px;
+    width: 750px;
+    margin-left: 75px
+}
+
+.pembukaan-konten {
+    font-size: 18px;
+    margin: 26px 0px 0px 45px;
+}
+
+.judul-konten1 {
+    margin-top: 20px;
+}
+
+.judul-konten1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 30px 0px 10px 35px;
+}
+
+.foto1 {
+    height: 160px;
+    width: 180px;
+    margin-left: 92px;
+}
+
+.komen_foto1 {
+    margin-top: 8px;
+    margin-left:95px;
+}
+
+.list1-bindo {
+    list-style-type: none;
+}
+
+.isi-1 {
+    list-style: none;
+}
+
+
+.judul-konten2 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0px 10px 35px;
+    font-weight: bold;
+}
+
+.open-isi2 {
+    margin-left: 38px;
+}
+
+.header-list-bindo2 {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.isi-list-bindo2 {
+    margin-left: 20px;
+}
+
+.materi-2 {
+    margin-left: 25px;
+    margin-top: 1px;
+}
+
+.judul-konten3 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0px 10px 35px;
+    font-weight: bold;
+}
+
+.foto2 {
+    height: 160px;
+    width: 180px;
+    margin-left: 92px;
+}
+
+.judul-konten4 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0px 10px 35px;
+    font-weight: bold;
+}
+
+.isi-3 {
+    margin-top: 12px;
+    margin-left: 60px;
+}
+
+.isi-4 {
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.isian-4 {
+    margin-left: 30px;
+}
+
+.judul-konten5 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0px 10px 35px;
+    font-weight: bold;
+}
+
+.isi-5 {
+    margin-left: 60px;
+}
+
+.isian-5 {
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.isiannya-5 {
+    margin-left: 40px;
+}
+
+.siisian-5 {
+    margin-left: 35px;
+}
+
+.isi-isian5 {
+    font-weight: bold;
+}
+
+/* Halaman Bahasa Indonesia end  */
+
+/* Halaman Pipas start */
+#pipas {
+    list-style-type: square;
+    list-style-position: inside;
+    margin-left: 40px;
+}
+
+#p1-pipas {
+    margin-left: 10px;
+}
+
+.list1-pipas {
+    margin-left: 20px;
+}
+
+#isi-list1-pipas {
+    margin-left: 20px;
+}
+
+.list2-pipas {
+    margin-left: 20px;
+}
+
+#isi-list2-pipas {
+    margin-left: 20px;
+}
+
+#materi2-pipas {
+    width: 800px;
+    margin-left: 70px;
+}
+
+#judul4-pipas {
+    padding-top: 10px;
+}
+
+.judul-konten6 {
+    font-weight: bold;
+}
+
+/* Halaman Pipas end */
+
+/* Halaman Bahasa Jawa start */
+
+#isi1-bjawa {
+    margin-left: 38px;
+}
+
+.header-list-jawa1 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 20px;
+
+}
+
+.isian-list-jawa1 {
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+.desc-konten3 {
+    width: 800px;
+    margin-left: 34px;
+    margin-top: 3px;
+}
+
+.header-list-jawa2 {
+    list-style-type: circle;
+    margin-left: 35px;
+}
+
+.header-table-jawa1 {
+    font-weight: bold;
+    margin-left: 45px;
+}
+
+#tabel-jawa1 {
+    width: 300px;
+    margin: 20px 44px;
+    cursor: default;
+}
